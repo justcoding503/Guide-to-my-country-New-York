@@ -1,0 +1,352 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+body{
+    background-image: url();
+}
+#home{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+iframe{
+    align-items: center;
+    margin: 0px 100px;
+    float: right;
+}
+p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    margin: auto 30px;
+}
+span{
+    font-weight: 700;
+    color:aquamarine;
+}
+nav ul{
+    background-color: brown;
+    padding: 20px;
+}
+nav ul:hover{
+    background-color: brown;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+    text-align: center;
+}
+nav ul li a:hover{
+    color: rgb(224, 189, 189);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(224, 189, 189);
+}
+nav{
+    text-align: center;
+}
+#places{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: solid;
+}
+
+#desc{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+#dest{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.beg{
+    border: 2px solid rgb(176, 38, 38);
+    padding: 0px;
+    margin: 40px;
+}
+#fig{
+    font-family: serif;
+    text-align: center;
+    margin-top: 0px;
+}
+#tshji3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.eating{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 30px 20px;
+    border-radius: 20px;
+    border: 4px solid brown;
+}
+
+.restaus{
+    width: 200px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 500;  
+}
+.info{
+    font-family: monospace;
+    margin: auto 10px;
+}
+footer{
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+}
+#preloader{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: white; 
+    background-image: url("giphy.gif"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: contain; 
+    z-index: 999999;
+}
+#tshji3, #title, #desc, #dest{
+    background-color: none;
+    padding: 0px;
+}
+#map{
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    float: left;
+}
+#dot1{
+    position: absolute;
+    display: block;
+    top: 17em;
+    left: 3em;
+    width: 8em;
+    height: 7em;
+    z-index: 9999999;
+}
+#dot2{
+    position: absolute;
+    display: block;
+    top:24em;
+    left: 12em;
+    width: 4em;
+    height: 12em;
+    z-index: 9999999;
+}
+#dot3{
+    position: absolute;
+    display: block;
+    top:41em;
+    left: 3em;
+    width: 5em;
+    height: 10em;
+    z-index: 9999999;
+}
+#dot4{
+    position: absolute;
+    display: block;
+    top:41em;
+    left: 25em;
+    width: 8em;
+    height: 10em;
+    z-index: 9999999;
+}
+#dot5{
+    position: absolute;
+    display: block;
+    top: 17em;
+    left: 25em;
+    width: 8em;
+    height: 8em;
+    z-index: 9999999;
+}
+#dot6{
+    position: absolute;
+    display: block;
+    top: 27em;
+    left: 25em;
+    width: 8em;
+    height: 8em;
+    z-index: 9999999;
+}
+.plac{
+    padding-right: 0px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.placename{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0px;
+    color: brown;
+}
+.about{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+}
+#inf{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+#decision{
+    text-align: center;
+}
+#header1{
+    margin: 0;
+    font-weight: 900;
+    font-size: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(176, 38, 38);
+    text-shadow: 2px black;
+    background-image: url(music\ background\ image.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#venue1{
+    margin-left: 10px;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 20px;
+}
+#venue2{
+    margin-left: 10px;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.gallery1{
+    margin-top: 0px;
+    margin-left:15px ;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.gallery2{
+    margin-top: 0px;
+    margin-left:0px;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    vertical-align: top;
+}
+#venue5, #venue4, #venue6, #venue3{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+#venue4, #venue3{
+    margin-bottom: 3px;
+    height: 147px;
+}
+figcaption{
+    position: relative;
+    bottom: 27px;
+    left: 40%;
+    background-color: brown;
+    padding: 0px;
+    display: inline;
+    text-align: center;
+}
+
+#venue1:hover, #venue2:hover{
+    transform: scale(1.1) translateX(15px);
+    transition: ease;
+    box-shadow: 0 15px 30px brown;
+    cursor: pointer;
+}
+#venue4:hover, #venue6:hover, #venue3:hover, #venue5:hover{
+    transform: scale(1.2) translateX(-15px);
+    transition: ease;
+    box-shadow: 0 15px 30px brown;
+    cursor: pointer;
+}
+.texthover{
+    display: none;
+    text-align: center;
+}
+#venue1:hover>.texthover{
+    display: block;
+}
+#venue2:hover>.texthover{
+    display: block;
+}
+#venue3:hover>.texthover{
+    display: block;
+    background-color: black;
+    color: brown;
+    padding: 0px;
+}
+#venue4:hover>.texthover{
+    display: block;
+    background-color: black;
+    color: brown;
+    padding: 0px;
+}
+#venue5:hover>.texthover{
+    display: block;
+}
+#venue6:hover>.texthover{
+    display: block;
+}
+#summary{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 2px 2px brown;
+    color: brown;
+}
+#heroimg{
+    width:100%;
+    height: 400px;
+}
+#heroimg2{
+    width: 100%;
+    height: 500px;
+}
+#heroimg3{
+    width: 100%;
+    height: 600px;
+    margin: 30px auto;
+}
+#foodies{
+    margin-top: 30px;
+}
